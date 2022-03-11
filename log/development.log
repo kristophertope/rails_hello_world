@@ -25,3 +25,150 @@ Processing by HelloController#index as HTML
 Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 4073)
 
 
+Started GET "/" for ::1 at 2022-03-11 15:21:49 -0600
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 89.4ms | Allocations: 41196)
+Completed 200 OK in 115ms (Views: 109.2ms | ActiveRecord: 0.0ms | Allocations: 45826)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:23:28 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 82.4ms | Allocations: 21517)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.0ms | Allocations: 21825)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 15:23:37 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3106)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3382)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 15:24:07 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2292)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2570)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:37:25 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 20262)
+Completed 500 Internal Server Error in 25ms (Allocations: 20500)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 15:37:46 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3645)
+Completed 500 Internal Server Error in 11ms (Allocations: 3884)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 15:37:59 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2266)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 2531)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:38:12 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 19476)
+Completed 500 Internal Server Error in 26ms (Allocations: 19714)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 15:41:33 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 19371)
+Completed 500 Internal Server Error in 23ms (Allocations: 19609)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 15:41:49 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2826)
+Completed 500 Internal Server Error in 8ms (Allocations: 3064)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-11 17:09:39 -0600
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 117.3ms | Allocations: 43517)
+Completed 200 OK in 129ms (Views: 122.8ms | ActiveRecord: 0.0ms | Allocations: 48147)
+
+
+Started GET "/" for ::1 at 2022-03-11 17:10:14 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 5016)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 5343)
+
+
+Started GET "/" for ::1 at 2022-03-11 17:10:20 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 5166)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 5435)
+
+
