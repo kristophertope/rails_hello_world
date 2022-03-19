@@ -172,3 +172,87 @@ Processing by HelloController#index as HTML
 Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 5435)
 
 
+Started GET "/" for ::1 at 2022-03-11 17:50:43 -0600
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 79.5ms | Allocations: 30433)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 0.0ms | Allocations: 35012)
+
+
+  
+ActionView::Template::Error (Multiple files with the same output path cannot be linked ("application.css")
+In "/Users/kristophertope/Dropbox/Websites/kristophertope.com/projects/rails_hello_world/app/assets/config/manifest.js" these files were linked:
+  - /Users/kristophertope/Dropbox/Websites/kristophertope.com/projects/rails_hello_world/app/assets/stylesheets/application.css
+  - /Users/kristophertope/Dropbox/Websites/kristophertope.com/projects/rails_hello_world/app/assets/stylesheets/application.scss
+):
+  
+sprockets (4.0.3) lib/sprockets/base.rb:100:in `find_all_linked_assets'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `block in synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:19:in `execute'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:363:in `run_task'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `block (3 levels) in create_worker'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:335:in `loop'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:335:in `block (2 levels) in create_worker'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `catch'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block in create_worker'
+Started GET "/" for ::1 at 2022-03-11 17:50:57 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 11800)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 12882)
+
+
+  
+ActionView::Template::Error (Multiple files with the same output path cannot be linked ("application.css")
+In "/Users/kristophertope/Dropbox/Websites/kristophertope.com/projects/rails_hello_world/app/assets/config/manifest.js" these files were linked:
+  - /Users/kristophertope/Dropbox/Websites/kristophertope.com/projects/rails_hello_world/app/assets/stylesheets/application.css
+  - /Users/kristophertope/Dropbox/Websites/kristophertope.com/projects/rails_hello_world/app/assets/stylesheets/application.scss
+):
+  
+sprockets (4.0.3) lib/sprockets/base.rb:100:in `find_all_linked_assets'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `block in synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:19:in `execute'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:363:in `run_task'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `block (3 levels) in create_worker'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:335:in `loop'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:335:in `block (2 levels) in create_worker'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `catch'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block in create_worker'
+Started GET "/" for ::1 at 2022-03-11 17:51:47 -0600
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 38325)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms | Allocations: 38648)
+
+
+Started GET "/" for ::1 at 2022-03-11 17:51:59 -0600
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 36273)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.0ms | Allocations: 40904)
+
+
